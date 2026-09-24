@@ -53,15 +53,15 @@ Dự án nghiên cứu và hiện thực hóa các **thuật toán khử răng c
    # Mở file solution
    PaintLike.sln
 
-   ## 📚 Nguồn gốc thuật toán & Tài liệu tham khảo
+   ## 📚** Nguồn gốc thuật toán & Tài liệu tham khảo**
 Thuật toán khử răng cưa Xiaolin Wu (Wu's Line Algorithm):
 
-**1 Tác giả phát minh: GS. Xiaolin Wu (1991).
+1. **Tác giả phát minh: GS. Xiaolin Wu (1991).**
 Bài báo khoa học: "An Efficient Antialiasing Technique", ACM SIGGRAPH Computer Graphics, Tập 25, Số 4, tr. 143–152.
 Mở rộng cho đường tròn / ellipse: "Fast Anti-Aliased Circle Generation", xuất bản trong cuốn Graphics Gems II (Academic Press, 1991).
-**2 Kỹ thuật tối ưu bộ nhớ đồ họa GDI+ (Direct Pixel Manipulation):
+2. ** Kỹ thuật tối ưu bộ nhớ đồ họa GDI+ (Direct Pixel Manipulation):**
 
 Sử dụng phương thức System.Drawing.Bitmap.LockBits kết hợp System.Runtime.InteropServices.Marshal.Copy để truy cập trực tiếp bộ nhớ đệm pixel (Pixel Buffer), loại bỏ chi phí context-switch của các hàm đồ họa cấp cao.
-**3 Xử lý ảnh số & Lọc làm mịn (Image Filtering):
-
+3. **Xử lý ảnh số & Lọc làm mịn (Image Filtering):
+**
 Thư viện mã nguồn mở thị giác máy tính OpenCV & wrapper OpenCvSharp4 (Gaussian Blur, Bilateral Filter, Edge-Preserving Filter).
