@@ -52,7 +52,11 @@ Dự án nghiên cứu và hiện thực hóa các **thuật toán khử răng c
 
    # Mở file solution
    PaintLike.sln
-   
+   ```
+3. Nhấn **F5** hoặc chọn **Start** trong Visual Studio để build và chạy ứng dụng.
+
+---
+
 ## 📚 **Nguồn gốc thuật toán & Tài liệu tham khảo**
 - Thuật toán khử răng cưa Xiaolin Wu (Wu's Line Algorithm):
 
